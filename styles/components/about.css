@@ -1,0 +1,252 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--clr-light);
+}
+
+.about__content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--clr-light);
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 5rem;
+
+}
+
+.about__title{
+    font-size: var(--size-2xl);
+    color: var(--clr-dark);
+}
+
+.about__description{
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    color: var(--clr-dark);
+}
+
+.about__link{
+    color: #d95d00;
+}
+
+.about__subtitle{
+    font-size: var(--size-sm);
+    color: var(--clr-dark);
+}
+
+.about__ul-container{
+    display: flex;
+    gap: 10em;
+}
+.about__ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: var(--clr-dark);
+    list-style-type: '\2910';
+    padding-left: 1.5em;
+}
+
+.about__list{
+    font-size: var(--size-sm);
+    padding-left: 0.5em;
+}
+
+.about__image{
+    width: 190px;
+    height: 270px;
+    visibility: hidden;
+}
+
+.about__image-wrapper{
+    display: flex;
+    align-self:last baseline;
+    position: absolute;
+    padding-right: 3rem;
+    padding-top: 0.6rem;
+}
+
+.about__image2{
+    visibility: hidden;
+    width: 250px;
+    height: 340px;
+}
+
+.about__image-placement{
+    position: absolute;
+    display: flex;
+    align-self:last baseline;
+    padding-right: 6rem;
+    right: 250px;
+    padding-top: 0.6rem;
+
+}
+
+.about__image3{
+    visibility: hidden;
+    width: 250px;
+    height: 340px;
+}
+
+.about__image-placement2{
+    position: absolute;
+    display: flex;
+    align-self:last baseline;
+    padding-right: 9rem;
+    right: 500px;
+    padding-top: 0.6rem;
+
+}
+
+.about__simui {
+    position: relative;
+    margin-left: auto;
+    right: 5rem;
+    color: var(--clr-light);
+    user-select: none;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .about {
+      gap: 1.5rem;
+      padding: 0.5em;
+
+  }
+  
+  .about__content{
+      gap:1.5rem;
+  }
+  
+  .about__title{
+      font-size: var(--size-3xl);
+  }
+  
+  .about__description{
+      
+      font-size: var(--size-base);
+  }
+
+  .about__subtitle{
+      font-size: var(--size-base);
+  }
+  
+  
+  .about__list{
+      font-size: var(--size-base);
+      padding-left: 0.7em;
+  }
+  } 
+
+  .about__hrEND{
+    width: 80%;
+    align-self: center;
+  }
+/* sm */
+ @media (min-width: 640px) {
+   
+}
+ 
+
+/* md */
+ @media (min-width: 768px) {
+    .about{
+        padding-left: 1em;
+    }
+    .about__ul{
+        padding-left: 2.5em;
+    }
+ } 
+ 
+ /* first image */
+ @media (min-width: 910px){
+    .about__image{
+    visibility: visible;
+    }
+ }
+
+/* lg */
+ @media (min-width: 1024px) {
+    .about {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about__content{
+        padding-top: 10rem;
+    }
+    
+    
+    .about__title{
+        font-size: var(--size-4xl);
+    }
+    
+    .about__description{
+        font-size: var(--size-lg);
+    
+    }
+    
+    .about__subtitle{
+        font-size: var(--size-2xl);
+    }
+    .about__list{
+        font-size: var(--size-lg);
+    }
+ } 
+
+/* xl */
+ @media (min-width: 1280px) {
+    .about{
+        padding-left: 2em;
+    }
+    .about__ul{
+        padding-left: 3.5em;
+    }
+    .about__content{
+        gap: 2rem;
+    }
+
+    .about__image{
+        width: 250px;
+        height: 340px;
+    }
+
+    .about__title{
+        font-size: var(--size-5xl);
+    }
+    
+    .about__description{
+        
+        font-size: var(--size-xl);
+    }
+  
+    .about__subtitle{
+        font-size: var(--size-3xl);
+    }
+    
+    
+    .about__list{
+        font-size: var(--size-xl);
+    }
+ } 
+ /* extra image (1)*/
+ @media (min-width: 1412px) {
+    .about__image2 {
+        visibility: visible;
+    }
+ }
+
+/* 2xl */
+ @media (min-width: 1536px) {
+    
+ }  
+
+/* extra image (2)*/
+@media (min-width: 1700px) {
+     .about__image3{
+    visibility: visible;
+}
+}  

@@ -1,0 +1,143 @@
+.hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.hero__image{
+    width: 36rem;
+    height: 22rem;
+    position: relative;
+}
+.hero__subtitle {
+    color: white;
+    font-size: var(--size-sm);
+    line-height: 0.9;
+    position:absolute;
+    top: 25.7rem;
+    
+}
+
+.hero__title{
+    color: white;
+    text-transform: uppercase;
+    font-size: var(--size-4xl);
+    line-height: 0.9;
+    position: absolute;
+    
+}
+
+.hero__description{
+    max-width: 60ch;
+    font-size: var(--size-xs);
+    color: var(--clr-slate200);
+    position: absolute;
+    top: 26.5rem;
+    
+}
+
+.hero__line{
+    margin-top: 1rem;
+    
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .hero__image{
+        height: 23rem;
+        width: 38rem;
+    }
+
+    .hero__subtitle{
+        font-size: var(--size-lg);
+        top: 26rem;
+    }
+    .hero__title{
+        font-size: var(--size-5xl);
+    }
+    .hero__description{
+        font-size: var(--size-base);
+        top: 27.1rem;
+    }
+ } 
+
+ /* md */
+ @media (min-width: 768px) {
+    .hero__image{
+        height: 30rem;
+        width: 46rem;
+    }
+    .hero__subtitle{
+        font-size: var(--size-xl);
+        top: 33rem;
+    }
+    .hero__title{
+        font-size: var(--size-6xl);
+    }
+    .hero__description{
+        font-size: var(--size-lg);
+        top: 34.3rem;
+    }
+ }  
+
+ /* lg */
+ @media (min-width: 1024px) {
+    .hero__image{
+        height: 37rem;
+        width: 65rem;
+    }
+    .hero__subtitle{
+
+        top: 40.7rem;
+    }
+    .hero__title{
+        font-size: var(--size-7xl);
+    }
+    .hero__description{
+        
+        top: 41.7rem;
+    }
+ } 
+
+ /* xl */
+ @media (min-width: 1280px) {
+    .hero__image{
+        height: 44rem;
+        width: 80rem;
+    }
+    .hero__subtitle{
+        font-size: var(--size-2xl);
+        top: 47rem;
+    }
+    .hero__title{
+        font-size: var(--size-8xl);
+    }
+    .hero__description{
+        font-size: var(--size-xl);
+        top: 48.5rem;
+    }
+ } 
+
+ /* 2xl */
+ @media (min-width: 1536px) {
+    .hero__image{
+        height: 51rem;
+        width: 105rem;
+    }
+    .hero__subtitle{
+        font-size: var(--size-2xl);
+        top: 54rem;
+    }
+    .hero__title{
+        font-size: var(--size-9xl);
+        letter-spacing: 0.018em;
+    }
+    .hero__description{
+        font-size: var(--size-xl);
+        top: 55.5rem;
+    }
+ }  

@@ -1,0 +1,99 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.contact__title{
+    font-size: var(--size-2xl);
+    text-transform: capitalize;
+    color: var(--clr-dark);
+}
+
+.contact__description{
+    font-size: var(--size-sm);
+    max-width: 60ch;
+    margin-top: 1rem;
+    color: var(--clr-dark);
+}
+
+.contact__btn{
+    font-size: var(--size-sm);
+    margin-top: 1rem;
+}
+
+.contact__gmail{
+    color: var(--clr-slate400);
+    font-size: var(--size-xs);
+}
+
+.contact__instagram{
+    margin-top: 1rem;
+    fill: var(--clr-dark);
+}
+/* xs */
+@media (min-width: 475px) {
+    
+    .contact__title{
+        font-size: var(--size-3xl);
+    }
+    
+    .contact__description{
+        font-size: var(--size-base);
+    }
+    
+    .contact__btn{
+        font-size: var(--size-base);
+    }
+    .contact__gmail{
+        font-size: var(--size-sm);
+    }
+} 
+  
+
+/* lg */
+ @media (min-width: 1024px) {
+    .contact__title{
+        font-size: var(--size-4xl);
+    }
+    
+    .contact__description{
+        font-size: var(--size-lg);
+    }
+    
+    .contact__btn{
+        font-size: var(--size-lg);
+    }
+    .contact__gmail{
+        font-size: var(--size-base);
+    }
+ } 
+
+/* xl */
+ @media (min-width: 1280px) {
+    .contact__title{
+        font-size: var(--size-5xl);
+    }
+    
+    .contact__description{
+        font-size: var(--size-xl);
+        margin-top: 1.5rem;
+    }
+    
+    .contact__btn{
+        font-size: var(--size-xl);
+        margin-top: 1.5rem;
+    }
+
+    .contact__gmail{
+        font-size: var(--size-lg);
+    }
+
+    .contact__instagram{
+        margin-top: 1.5rem;
+    }
+ } 
