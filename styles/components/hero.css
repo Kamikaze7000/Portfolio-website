@@ -26,12 +26,13 @@
     text-transform: uppercase;
     font-size: var(--size-4xl);
     position: absolute;
+    overflow: hidden;
     
 }
 
 .hero__description{
     max-width: 60ch;
-    font-size: var(--size-xs);
+    font-size: var(--size-xxs);
     color: var(--clr-slate200);
     position: absolute;
     top: 26.5rem;
@@ -43,6 +44,12 @@
     
 }
 
+/* xs */
+@media (min-width: 475px) {
+    .hero__description{
+        font-size: var(--size-xs);
+    }
+} 
 /* sm */
 @media (min-width: 640px) {
     .hero__image{

@@ -47,4 +47,5 @@
 
 .mobile-nav__btn{
     font-size: var(--size-sm);
+    padding-top: 0.2em;
 }
