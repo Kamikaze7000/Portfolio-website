@@ -11,21 +11,23 @@
     position: sticky;
     z-index: 9999;
     height: 100%;
+    top: -10px;
+
+
 
 }
 
 
 .header__inner{
-    position: sticky;
+    display: flex;
     justify-content: flex-end;
-    align-items: center;
-
-
+    align-items: start;
+    top: -20px;
 }
 
 .header__logo{
     margin-right: auto;
-    padding-left: 1rem;
+    padding-left: 2rem;
     align-items: center;
     font-size: var(--size-2xl);
 }
@@ -121,7 +123,7 @@
 }
 
 .header__logo{
-    padding-left: 2rem;
+
     font-size: var(--size-3xl);
 }
  }

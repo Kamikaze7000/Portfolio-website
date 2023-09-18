@@ -12,6 +12,7 @@
     width: 36rem;
     height: 22rem;
     position: relative;
+    overflow: hidden;
 }
 .hero__subtitle {
     color: white;
